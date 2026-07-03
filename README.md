@@ -53,11 +53,19 @@ The project demonstrates the complete machine learning workflow, including:
 
 ## 📈 Evaluation Metrics
 
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+The trained Linear Regression model achieved the following performance on the test dataset:
 
-*(Update these values after final evaluation.)*
+| Metric | Value |
+|---------|-------|
+| Mean Absolute Error (MAE) | **0.5332** |
+| Root Mean Squared Error (RMSE) | **0.7456** |
+| R² Score | **0.5758** |
+
+### Interpretation
+
+- **MAE = 0.5332** means that, on average, the predicted house value differs from the actual value by about **0.53** (in the dataset's target units).
+- **RMSE = 0.7456** indicates the model penalizes larger prediction errors more heavily.
+- **R² = 0.5758** means the model explains approximately **57.6%** of the variation in house prices, making it a reasonable baseline model.
 
 ---
 
